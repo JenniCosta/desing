@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+} 
+
+header{
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    color:white;
+    padding: 0 100px;
+    border-top: 6px solid #2ecc71;
+    overflow: auto;
+    
+}
+
+
+header >div{
+    height: 500px;
+    margin-top: 80px;
+}
+
+h1{
+    font-size: 2.265rem;
+    margin: 0;
+    margin-left: 100px;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+}
+
+p{
+    font-size: 1.25rem;
+}
+
+h1>label{
+    color: #2ecc71;
+}
+
+.primeira{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+section > div{
+    width: 20vw;
+}
+
+.ferramenta{
+background-color: #2ecc71;
+border-radius: 50px;
+padding: 15px;
+}
+
+.estrela{
+    background-color: #2ecc71;
+border-radius: 50px;
+padding: 15px;
+}
+
+
+.mundo{
+    background-color: #2ecc71;
+border-radius: 50px;
+padding: 15px;
+}
+
+
+
+@media(min-width:992px){
+    .primeira{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 40px;
+        align-items: center;
+}
+}
