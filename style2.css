@@ -12,18 +12,33 @@ h1{
 }
 
 .campo{
-    /*margin-left: 500px;*/
-    padding: 10px;
-    /* flex-direction: column;
+    margin-left: 270px;
+    padding: 250px;
+     flex-direction: column;
     justify-content: center;
     position: relative;
-    width: 50px;
-    height: 100px; */
+    width: 200px;
+    height: 5px; 
     text-align: center;
     background-color: rgba(225,255,255, 0.8);
 }
 
-/* #tele{
+#tele{
     margin-top: 10px;
     margin-right: 30px;
-} */
+} 
+
+#email{
+    margin-top: 10px;
+    margin-right: 30px;
+} 
+
+#senha{
+    margin-top: 10px;
+    margin-right: 30px;
+} 
+
+#cfsenha{
+    margin-top: 10px;
+    margin-right: 30px;
+} 
