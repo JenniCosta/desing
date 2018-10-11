@@ -1,0 +1,31 @@
+body{
+    background-color:  rgb(27,200, 227);
+}
+
+h1{
+    align-items: center;
+    justify-content: center;
+    margin-left: 550px; 
+}
+
+.campos{
+    align-items: center;
+    justify-content: center;
+    margin-left: 450px;
+}
+
+.botao{
+    width: 90px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 65px;
+}
+
+#email{
+    margin-top: 5px;
+}
+
+#senha{
+    margin-top: 10px;
+    
+}
